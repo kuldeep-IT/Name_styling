@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Choose Font Style  :">
+
+        <CheckBoxPreference
+
+            android:key="FONT1"
+            android:title="Kartina"
+            android:defaultValue="Kartina.ttf"
+            android:summary="Font Style 1"
+
+            />
+
+        <CheckBoxPreference
+
+            android:key="FONT2"
+            android:title="Ceylonia"
+            android:defaultValue="Ceylonia.otf"
+            android:summary="Font Style 2"
+            />
+
+        <CheckBoxPreference
+
+            android:key="FONT3"
+            android:title="Kind Heart"
+            android:defaultValue="Kind Heart.otf"
+            android:summary="Font Style 3"
+            />
+
+        <CheckBoxPreference
+
+            android:key="FONT4"
+            android:title="hawthorn"
+            android:defaultValue="hawthorn.ttf"
+            android:summary="Font Style 4"
+
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Choose Font Size from below :">
+
+        <ListPreference
+
+            android:key="FONT_SIZE"
+            android:title="Please select the size "
+            android:dialogTitle="Select as you wish"
+            android:entries="@array/font_size"
+            android:entryValues="@array/font_value"
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Make Splash to Your Text :">
+
+        <CheckBoxPreference
+
+            android:key="BLUE"
+            android:title="Blue"
+            android:defaultValue="#2196F3"
+            android:summary="Peaceful color"
+            />
+
+        <CheckBoxPreference
+
+            android:key="YELLOW"
+            android:title="Yellow"
+            android:defaultValue="#FFE700"
+            android:summary="Sunshine"
+            />
+
+        <CheckBoxPreference
+
+            android:key="RED"
+            android:title="Red"
+            android:defaultValue="#EB1B0D"
+            android:summary="Good luck"
+            />
+
+        <CheckBoxPreference
+
+            android:key="ORANGE"
+            android:title="Orange"
+            android:defaultValue="#FD5E28"
+            android:summary="Passion, pleasure, desire, aggression"
+            />
+
+        <CheckBoxPreference
+
+            android:key="MAGENTA"
+            android:title="Pastel Magenta"
+            android:defaultValue="#F49AC2"
+            android:summary="Harmony, balance, universal love, compassion, cooperation, kindness"
+            />
+        <CheckBoxPreference
+
+            android:key="LAVENDER"
+            android:title="Dark Lavender"
+            android:defaultValue="#734F96"
+            android:summary="Royalty,elegance, feminity, and beauty"
+            />
+
+    </PreferenceCategory>
+
+
+
+
+
+
+
+</PreferenceScreen>
